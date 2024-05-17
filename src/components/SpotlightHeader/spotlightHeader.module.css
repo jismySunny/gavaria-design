@@ -1,0 +1,85 @@
+.nav {
+  padding: 20px 0;
+  margin: 0 30px;
+  position: relative;
+  
+}
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* max-width: 1480px;
+  margin: 0 auto;
+  width: 100%; */
+}
+
+.box .logo {
+  width: 170px;
+}
+.box .right{
+
+}
+.box .right .marketplace {
+  color: #f7f7f7;
+  font-size: 18px;
+  font-weight: 400;
+}
+.box .right .signin {
+  margin-left: 30px;
+  border: 1px solid #f7f7f7;
+  border-radius: 8px;
+  color: #f7f7f7;
+  padding: 14px 25px;
+  font-size: 18px;
+  font-weight: 400;
+}
+@media (max-width: 900px) {
+  .box .logo {
+    width: 130px;
+  }
+  .box .right .signin {
+    padding: 10px 16px;
+    font-size: 15px;
+  }
+  .box .right .marketplace {
+    font-size: 15px;
+  }
+  .box .right{
+  margin-top: -24px;
+  }
+}
+@media (max-width: 440px) {
+  .box .logo {
+    width: 95px;
+  }
+  .box .right .signin {
+    padding: 7px 14px;
+    font-size: 12px;
+    margin-left: 13px;
+    white-space: nowrap;
+  }
+  .box .right .marketplace {
+    font-size: 12px;
+  }
+  .box .right{
+  margin-top: -20px;
+  }
+  .nav {
+    padding: 16px 0;
+    margin: 0 10px;
+    position: relative;
+    
+  }
+}
+@media (max-width: 340px) {
+  .box .logo {
+    width: 85px;
+  }
+  .nav {
+    padding: 16px 0;
+    margin: 0 9px;
+    position: relative;
+    
+  }
+  
+}

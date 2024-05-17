@@ -1,0 +1,167 @@
+.footer {
+  background: url("/background-images/footer-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 6% 0 3%;
+  margin-top: 5%;
+}
+.footer_logo{
+  display: none;
+}
+.top {
+  display: flex;
+  align-items: flex-start;
+  /* justify-content: space-between; */
+  margin: 0 100px;
+}
+.logo {
+  width: 19%;
+  /* margin-right: 14%; */
+}
+.link_box {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  margin-left:14%;
+  
+}
+
+.link_box:first-child{
+  margin-left: 0px;
+}
+.link_box:last-child {
+  margin-left: 14%;
+}
+.link_box h1 {
+  margin-bottom: 20px;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.link {
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 12px;
+}
+.link:last-child {
+  margin-bottom: 0;
+}
+.middle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 6% 0 2%;
+}
+.icon {
+  width: 2.5%;
+  cursor: pointer;
+}
+.icon:nth-child(2) {
+  margin: 0 3%;
+}
+.bottom {
+  text-align: center;
+  margin: 0 100px;
+}
+.bottom p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+  line-height: 19px;
+  margin-bottom: 20px;
+}
+.bottom span {
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+}
+
+@media all and (max-width: 1280px) {
+  .link_box h1{
+    font-size: 18px;
+  }
+  .link{
+    font-size: 13px;
+    white-space: nowrap;
+  }
+  .bottom p {
+    font-size: 13px;
+  }
+  .bottom span {
+    font-size: 13px;
+  }
+}
+@media (max-width: 980px){
+  
+  .top {
+    margin: 30px 15px !important;
+  }
+}
+@media (max-width:640px){
+  .logo {
+    display: none;
+  }
+  .footer_logo{
+    display: block;
+    width: 25%;
+    margin: 20px auto;
+  }
+  .top {
+    margin: 30px 10px !important;
+  }
+  .link_box {
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    margin-left:12%;
+    
+  }
+  .bottom {
+    text-align: center;
+    margin: 0 40px;
+  }
+}
+@media (max-width: 480px){
+  .footer_wrapper{
+    margin: 60px 15px !important;
+  }
+  .top {
+    margin: 37px 23px !important;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .link_box {
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    margin-left:7%;
+    
+  }
+  .link_box h1 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .bottom {
+    margin: 37px 15px !important;
+  }
+  .footer_logo{
+    display: block;
+    width: 25%;
+    margin: 101px  auto 0px;
+  }
+  .icon {
+    width: 5.5%;
+    cursor: pointer;
+  }
+}
+@media (max-width:440px) {
+  .link_box:first-child{
+    margin-left: 52px !important;
+  }
+  .link_box:last-child {
+    margin-left: 9%;
+  }
+}

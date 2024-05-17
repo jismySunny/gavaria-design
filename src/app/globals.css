@@ -2,11 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
+
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -31,3 +27,86 @@ body {
     text-wrap: balance;
   }
 }
+
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  background: transparent;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+  outline: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  /* font-family: sans-serif; */
+}
+:root{
+  --white : #fff;
+  --black : #000;
+}
+body{
+  background: #191D24;
+  /* height: 100vh; */
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+  background: #000;
+
+}
+body::-webkit-scrollbar-thumb {
+  background: #191D24;
+  border-radius: 10px;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after {
+  content: "";
+  content: none;
+}
+del {
+  text-decoration: line-through;
+}
+header,
+section,
+article,
+aside,
+nav,
+footer,
+address {
+  display: block;
+}
+
+input,
+textarea,
+select {
+  font-family: sans-serif;
+}
+.image {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+.wrapper {
+  /* width: 90%;
+  margin: 0 auto;
+  max-width: 1360px; */
+}
+
+/* style starts here */
