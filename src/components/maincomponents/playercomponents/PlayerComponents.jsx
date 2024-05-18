@@ -7,50 +7,55 @@ function PlayerComponents() {
     <div className={styles.main}>
       <div className={styles.music_box}>
         <div className={styles.music}>
+          <div className={styles.musicimg}>
           <Image
             src="/images/music.png"
             alt="Description of image"
-            width={78}
-            height={77}
+            width={88}
+            height={89}
           />
-        </div>
-        <div className={styles.items}>
-          <div className={styles.playing}>
-            <p>Playing</p>
           </div>
-          <Image
-            src="/icons/playericons/mask.svg"
-            alt="image"
-            width={22}
-            height={16}
-          />
+          <div className={styles.items}>
+            <div className={styles.playing}>
+              <p>Playing</p>
+            </div>
+            <Image
+              src="/icons/playericons/mask.svg"
+              alt="image"
+              width={28}
+              height={19}
+            />
+          </div>
         </div>
-      </div>
-      <div className={styles.about_music}>
-        <p className={styles.title}>Glennon Doyle & Cadence13</p>
-        <p className={styles.desc}>
-          Episode 299: The Horrific Murder of Dorothy..
-        </p>
-        <p className={styles.title}>Morbid: A True Crime Podcast</p>
-        <div className={styles.icons}>
-          <Image
-            src="/icons/playericons/chapters.svg"
-            alt="image"
-            width={20}
-            height={20}
-          />
-          <Image
-            src="/icons/playericons/captions.svg"
-            alt="image"
-            width={20}
-            height={20}
-          />
-          <Image
-            src="/icons/playericons/info.svg"
-            alt="image"
-            width={20}
-            height={20}
-          />
+        
+        <div className={styles.about_music}>
+          <div className={styles.contents}>
+            <p className={styles.title}>Glennon Doyle & Cadence13</p>
+            <p className={styles.desc}>
+              Episode 299: The Horrific Murder of Dorothy..
+            </p>
+            <p className={styles.title}>Morbid: A True Crime Podcast</p>
+          </div>
+          <div className={styles.icons}>
+            <Image
+              src="/icons/playericons/chapters.svg"
+              alt="image"
+              width={25}
+              height={25}
+            />
+            <Image
+              src="/icons/playericons/captions.svg"
+              alt="image"
+              width={25}
+              height={25}
+            />
+            <Image
+              src="/icons/playericons/info.svg"
+              alt="image"
+              width={25}
+              height={25}
+            />
+          </div>
         </div>
       </div>
       <div className={styles.player_section}>
@@ -102,14 +107,14 @@ function PlayerComponents() {
         <Image
             src="/icons/playericons/menu.svg"
             alt="image"
-            width={25}
-            height={25}
+            width={35}
+            height={35}
           />
           <Image
             src="/icons/playericons/expand.svg"
             alt="image"
-            width={25}
-            height={25}
+            width={30}
+            height={30}
           />
 
         </div>
@@ -117,38 +122,38 @@ function PlayerComponents() {
         <Image
             src="/icons/playericons/speed.svg"
             alt="image"
-            width={25}
-            height={25}
+            width={35}
+            height={35}
           />
           <Image
             src="/icons/playericons/speaker.svg"
             alt="image"
-            width={25}
-            height={25}
+            width={30}
+            height={30}
           />
           <Image
             src="/icons/playericons/like.svg"
             alt="image"
-            width={25}
-            height={25}
+            width={30}
+            height={30}
           />
           <Image
             src="/icons/playericons/save.svg"
             alt="image"
-            width={25}
-            height={25}
+            width={30}
+            height={30}
           />
           <Image
             src="/icons/playericons/plus.svg"
             alt="image"
-            width={25}
-            height={25}
+            width={30}
+            height={30}
           />
           <Image
             src="/icons/playericons/playlist.svg"
             alt="image"
-            width={25}
-            height={25}
+            width={30}
+            height={30}
           />
 
         </div>
